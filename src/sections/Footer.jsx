@@ -7,7 +7,7 @@ const Footer = () => {
                 <p className='text-white-500'>© 2025 Mit. All rights reserved.</p>
             </div>
             <div className='flex gap-3'>
-                <a href="https://github.com/2004Luci" target='_blank' rel='noreferrer'>
+                <a href="https://github.com/2004Luci/threejs_portfolio" target='_blank' rel='noreferrer'>
                     <div className='sm:social-icon social-icon_small'>
                         <img src="/assets/github.svg" alt="github" className='w-1/2 h-1/2' />
                     </div>
