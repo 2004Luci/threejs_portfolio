@@ -62,7 +62,7 @@ const About = () => {
                         <div>
                             <p className='grid-headtext'>I work remotely across most timezones.</p>
                             <p className='grid-subtext'>I'm based in Ahmedabad, India with remote work available.</p>
-                            <a href="http://localhost:5173/#contact">
+                            <a href="https://www.mit4sheth.dev/#contact">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                             </a>
                         </div>

@@ -6,10 +6,10 @@ const NavItems = () => {
     <ul className='nav-ul'>
       {navLinks.map(({ id, href, name }) => (
         <li key={id} className='nav-li'>
-          <a href={href} className='nav-li_a' onClick={()=> {}}>{name}</a>
+          <a href={href} className='nav-li_a' onClick={() => { }}>{name}</a>
         </li>
       ))}
-      
+
     </ul>
   )
 }
@@ -25,14 +25,14 @@ const Navbar = () => {
         <div className='flex justify-between items-center py-5 mx-auto c-space'>
           <a href="/" className='text-neutral-400 font-bold text-xl hover:text-white transition-colors'>Mit</a>
           <button onClick={toggleMenu} className='text-neutral-400 hover:text-white focus:outline-none sm:hidden flex' aria-label='Toggle menu'>
-            <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="toggle" className='w-6 h-6' />
+            <img src={isOpen ? "assets/menu.svg" : "assets/close.svg"} alt="toggle" className='w-6 h-6' />
           </button>
           <nav className='sm:flex hidden'>
             <NavItems />
           </nav>
         </div>
       </div>
-      <div className={`nav-sidebar ${isOpen ? 'max-h-screen':'max-h-0'}`}>
+      <div className={`nav-sidebar ${isOpen ? 'max-h-0' : 'max-h-screen'}`}>
         <nav className='p-5'>
           <NavItems />
         </nav>
