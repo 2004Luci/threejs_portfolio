@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div className='col-span-1 xl:row-span-3'>
                     <div className='grid-container'>
-                        <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] h-fit object-contain brightness-105' />
+                        <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] sm:relative sm:left-[25%] lg:left-6 h-fit object-contain brightness-105' />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
                             <p className='grid-subtext'>Skilled in HTML5, CSS3, JavaScript, TypeScript, Bootstrap, and Tailwind CSS, with a strong foundation in front-end development. Currently enhancing my expertise in React, Next.js, MongoDB, and Express to create dynamic and full-stack web applications.</p>
