@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
 import { myProjects } from '../constants/index.js'
 import { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
