@@ -26,6 +26,15 @@ export default {
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",
       },
+      animation: {
+        'move-left': 'move-left 20s linear infinite'
+      },
+      keyframes: {
+        'move-left': {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
+      }
     },
   },
   plugins: [],

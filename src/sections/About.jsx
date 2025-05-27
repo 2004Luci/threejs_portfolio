@@ -9,7 +9,7 @@ const About = () => {
     const [hasCopied, setHasCopied] = useState(false)
 
     const handleCopy = () => {
-        navigator.clipboard.writeText('mit4sheth@gmail.com');
+        navigator.clipboard.writeText('mit4s.dev@gmail.com');
         toast('Email Copied to Clipboard!', { theme: "dark" })
 
         setHasCopied(true);
@@ -25,8 +25,8 @@ const About = () => {
                     <div className='grid-container'>
                         <img src="/assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
-                            <p className='grid-headtext'>Hi, I'm Mit</p>
-                            <p className='grid-subtext'>I am a web developer aspiring to build dynamic and scalable web applications.</p>
+                            <p className='grid-headtext'>Hi, I&apos;m Mit</p>
+                            <p className='grid-subtext'>Aspiring to build dynamic and scalable web applications that deliver seamless user experiences and robust performance.</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const About = () => {
                         </div>
                         <div>
                             <p className='grid-headtext'>I work remotely across most timezones.</p>
-                            <p className='grid-subtext'>I'm based in Ahmedabad, India with remote work available.</p>
+                            <p className='grid-subtext'>I&apos;m based in Ahmedabad, India with remote work available.</p>
                             <a href="/#contact">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                             </a>
@@ -73,7 +73,7 @@ const About = () => {
                         <img src="/assets/grid3.png" alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>My passion for Coding</p>
-                            <p className='grid-subtext'>Building and problem-solving through code isn't just what I do — it's what I love. Every challenge is an opportunity to create, innovate, and turn ideas into reality.</p>
+                            <p className='grid-subtext'>Committed to transforming complex challenges into innovative, high-impact solutions through clean, efficient code—driven by a focus on quality, scalability, and real-world results.</p>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ const About = () => {
                             <div className='copy-container' onClick={handleCopy}>
                                 <ToastContainer theme='dark' />
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                                <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>mit4sheth@gmail.com</p>
+                                <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>mit4s.dev@gmail.com</p>
                             </div>
                         </div>
                     </div>
