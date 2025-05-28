@@ -148,7 +148,7 @@ export const myProjects = [
     desc: 'FinSync is a modern, AI-powered finance web application designed to simplify personal financial management. It offers real-time insights, automated expense tracking, and intuitive budgeting tools, empowering users to make informed financial decisions effortlessly.',
     subdesc: 'Built with cutting-edge technologies like Next.js, Tailwind CSS, and integrated with Gemini AI, FinSync provides a seamless and responsive user experience across all devices. Its robust features, including multi-account management and personalized financial analytics, make it an essential tool for achieving financial clarity and control.',
     href: 'https://fin-sync.vercel.app/',
-    texture: '/textures/project/zephora.mp4',
+    texture: '/textures/project/finsync.mp4',
     logo: '/assets/finsync.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
